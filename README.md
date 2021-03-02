@@ -43,8 +43,8 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
     `unsigned char c = 3.14;` 
     `unsigned short int i = 3.14; `
-    `unsigned int j = ‘B’; `
-    `float f = ‘C’; `
+    `unsigned int j = 'B'; `
+    `float f = 'C'; `
 
     Usando o debugger (sem recorrer a `printf()`) verifique:
 
