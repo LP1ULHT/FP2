@@ -189,7 +189,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     	char alpha = (char) 0xF0;
     	unsigned int clr = 0xBF3F3FF0 ;
     	unsigned char beta;
-    	unsigned char gr = (clr >> 16) & (0 x000000FF);
+    	unsigned char gr = (clr >> 16) & (0x000000FF);
     	beta = alpha >> 4;
     	return 0;
     }
