@@ -200,3 +200,33 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
     - Compile o código e verifique se o resultado foi o esperado. Caso não seja, identifique o erro e volte a fazer a primeira alínea.
 
 
+
+24.
+Crie um programa que pede ao utilizador para introduzir 3 números. O primeiro número deverá ser introduzido em base decimal, o segundo em base hexadecimal e o terceiro em base octal. Os números introduzidos deverão ser gravados em variáveis que ocupem 2 bytes cada uma. Em seguida o programa deverá apresentar uma tabela com os números introduzidos, nas três bases (decimal, hexadecimal e octal) e também os números multiplicados por -1 também nas tês bases.
+O programa deverá começar por apresentar a mensagem:
+`Wellcome to number informer v1`
+e em seguida deverá pedir o primeiro número ao utilizado:
+`Please insert Number 1 in Decimal:`
+depois o segundo:
+`Please insert Number 2 in Hexadecimal:`
+e por fim o terceiro
+`Please insert Number 3 in Octal:`
+Em seguida deverá apresentar a tabela de acordo com o exemplo apresentado em baixo. Os números em decimal e octal deverão ocupar 6 dígitos. Os números em hexadecimal deverão ocupar 4 dígitos.
+
+```
+Wellcome to number informer v1
+Please insert Number 1 in Decimal:
+1
+Please insert Number 2 in Hexadecimal:
+A
+Please insert Number 3 in Octal:
+73
++-----+--------+------+--------+--------+------+--------+
+| Nr. | Dec    | Hex  | Oct    | -Dec   | -Hex | -Oct   |
++-----+--------+------+--------+--------+------+--------+
+| 1   | 000001 | 0001 | 000001 | -00001 | ffff | 177777 |
+| 2   | 000010 | 000A | 000012 | -00010 | fff6 | 177766 |
+| 3   | 000059 | 003B | 000073 | -00059 | ffc5 | 177705 |
++-----+--------+------+--------+--------+------+--------+
+```
+
