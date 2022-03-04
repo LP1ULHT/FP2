@@ -132,9 +132,9 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
    ```bash
    Qual o número de quilómetros que percorreu?
-   > 100
+   > 200
    Qual o número de litros que consumiu?
-   > 10
+   > 20
    Consumo aos 100 Km = 10
    ```
    
