@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
 
-*Linguagens de Programação I - 2019/2020*
+*Linguagens de Programação I*
 
 # Ficha de Exercícios - 2
 
@@ -8,7 +8,7 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 
 - O código apresentado deve ser bem indentado. 
 - O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
-- `gcc -ansi -Wall -Wextra -Wpedantic -g exercicio1.c -o exercicio1`
+- `gcc -Wvla -Wall -Wextra -Wpedantic -g exercicio1.c -o exercicio1`
 - Tenha em atenção os nomes dados das variáveis, para que sejam indicadores daquilo que as mesmas vão conter.
 - Evite o uso de constantes mágicas. 
 - Evite duplicação de código. 
