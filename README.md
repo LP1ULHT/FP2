@@ -121,8 +121,6 @@ Na resolução destes exercícios deve ser utilizada a Linguagem de Programaçã
 - X = 5­7 || 0; 
 - X = 0*3 || 5*0; 
 - X = 0 || !0; 
-- X = 50 >> 2; 
-- X = 100 << 3
 
    
 
