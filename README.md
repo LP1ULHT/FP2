@@ -62,22 +62,22 @@ O programa em seguida testa se o número é zero. Execute o programa compilado. 
 
      *Exemplo: 228184 segundos correspondem a 2 Dias e 15 Horas 23 Minutos e 4 Segundos.*
 
+8. Implemente uma função que recebe um horário, através da Hora, dos Minutos e dos Segundos, e com estes dados calcule e retorne o tempo total em segundos.
+
+   *Exemplo de uma sessão de uso do programa:*
+
+   ```bash
+   Qual a hora?
+   > 10
+   Qual o minuto?
+   > 20
+   Qual o segundo?
+   > 35
+   Total de segundos = 37235
+   ```
+
+
    
-
-
-8. Preencha a seguinte tabela com o resultado esperado (0 ou 1) depois de aplicar o “operador lógico” aos dois valores indicados.
-
-| Valor 1 | Operador | Valor 2 | Resultado |
-| ------- | -------- | ------- | --------- |
-| 1       | &&       | 0       |           |
-| 10      | &&       | 1       |           |
-| 0       | &&       | 0       |           |
-| 1       | \|\|     | 10      |           |
-| 10      | \|\|     | 0       |           |
-| 0       | \|\|     | 0       |           |
-
-
-
 9. Indique qual o resultado das seguintes expressões. Assuma que todas as variáveis são inteiras:
 
 - `5 && 6`
@@ -92,40 +92,8 @@ O programa em seguida testa se o número é zero. Execute o programa compilado. 
 - `0*3 || 5*0`
 - `0 || !0`
 
-   
 
-10. Implemente uma função que recebe o número de quilómetros que percorreu e o número de litros de combustível que o automóvel consumiu e retorne o número de litros que este consome em média em 100 quilómetros. Use constantes para representar os vários fatores de conversão.
-
-   *Exemplo de uma sessão de uso do programa (à frente do símbolo ‘>’ aparece o input do utilizador):*
-
-   ```bash
-   Qual o número de quilómetros que percorreu?
-   > 200
-   Qual o número de litros que consumiu?
-   > 20
-   Consumo aos 100 Km = 10
-   ```
-   
-   
-   
-
-11. Implemente uma função que recebe um horário, através da Hora, dos Minutos e dos Segundos, e com estes dados calcule e retorne o tempo total em segundos.
-
-   *Exemplo de uma sessão de uso do programa:*
-
-   ```bash
-   Qual a hora?
-   > 10
-   Qual o minuto?
-   > 20
-   Qual o segundo?
-   > 35
-   Total de segundos = 37235
-   ```
-
-   
-
-12. Implemente um programa que peça ao utilizador para introduzir dois números inteiros (a e b) e, de seguida, apresente no ecrã o resultado das seguintes operações aritméticas:
+10. Implemente um programa que peça ao utilizador para introduzir dois números inteiros (a e b) e, de seguida, apresente no ecrã o resultado das seguintes operações aritméticas:
 
    - a+b
 
@@ -135,20 +103,12 @@ O programa em seguida testa se o número é zero. Execute o programa compilado. 
 
    - a/b (assim como b/a)
    
-     
-
-   *Notas:* 
-
 - Deve ter em conta que o operador de divisão, quando aplicado a dois números inteiros, descarta a parte fracionária do resultado. Neste exercício, se o utilizador introduzir o valor 1 para o primeiro número e o valor 2 para o segundo número, o programa deve apresentar o valor 0.5 como resultado de a / b.
-
-- 
-  Deve ter em atenção situações de erro possíveis. Por exemplo, quando o utilizador introduzir 50 para o primeiro número e o valor 0 para o segundo número, não deve ser executada a operação a/b .
-
 - Deve ter em atenção situações de erro possíveis. Por exemplo, quando o utilizador introduzir o valor 50 para o primeiro número e o valor 0 para o segundo número, não deve ser executada a operação a/b (pois seria 50/0.
 
   
 
-13. Crie um programa capaz de ler um número inteiro em base decimal, octal ou hexadecimal e o converta para as três bases.
+11. Crie um programa capaz de ler um número inteiro em base decimal, octal ou hexadecimal e o converta para as três bases.
    ```bash
    Qual a base do numero que quer inserir? ('d' - decimal, 'o' - octal, 'h' - hexadecimal)
    > h
