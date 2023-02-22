@@ -80,17 +80,17 @@ O programa em seguida testa se o número é zero. Execute o programa compilado. 
 
 9. Indique qual o resultado das seguintes expressões. Assuma que todas as variáveis são inteiras:
 
-- X = 5 && 6; 
-- X = 5 && 0; 
-- X = 5 > 2; 
-- X = 5==6; 
-- X = !5; 
-- X = !0; 
-- X = 5­3­2 || 1; 
-- X = 5­6 || 1; 
-- X = 5­7 || 0; 
-- X = 0*3 || 5*0; 
-- X = 0 || !0; 
+- `5 && 6`
+- `5 && 0`
+- `5 > 2`
+- `5 == 6`
+- `!5`
+- `!0`
+- `5+3-2 || 1`
+- `5-6 || 1` 
+- `5+7 || 0`
+- `0*3 || 5*0`
+- `0 || !0`
 
    
 
