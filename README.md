@@ -29,15 +29,22 @@
 
 2. Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus Celsius. A fórmula de conversão é: C = 5.0 ∗ (F − 32.0)/9.0, sendo C é a temperatura em graus Celsius e F a temperatura em graus Fahrenheit. 
 
-3. Leia o valor do raio de um círculo. Calcule e imprima a área do círculo correspondente. A área do círculo é π ∗ raio² , considere π = 3.141592 (constante).
+3. Faça um programa que peça ao utilizador 2 valores inteiros e coloque o primeiro valor numa variável chamada de A e o segundo valor noutra variável chamada de B. Em seguida, o seu programa deverá trocar o conteúdo destas variáveis e imprimir no ecrã o que cada variável contém.
+   
 
-4. Faça um programa que peça ao utilizador 2 valores inteiros e coloque o primeiro valor numa variável chamada de A e o segundo valor noutra variável chamada de B. Em seguida, o seu programa deverá trocar o conteúdo destas variáveis e imprimir no ecrã o que cada variável contém.
+4. Escreva um programa que declara um número real de dupla precisão e o inicializa com a seguinte expressão:
+```C
+double a = (0.3 * 3) - 0.9;
+```
+O programa em seguida testa se o número é zero. Execute o programa compilado. O que observa? 
+
+
+5. Faça um programa que peça ao utilizador 4 notas de um aluno e imprima no ecrã a média desse aluno. 
    
-5. Faça um programa que peça ao utilizador 4 valores inteiros. Coloque estes valores nas variáveis a, b, c, d e imprima no ecrã o resultado da seguinte expressão:(a + b + c) x d
-   
-6. Faça um programa que peça ao utilizador 4 notas de um aluno e imprima no ecrã a média desse aluno. 
-   
-7. Considere um programa com as seguintes variáveis e respetivas inicializações:
+   5.1 Altere o programa de forma a que, para além da média, o programa apresente as 4 notas por ordem crescente.
+
+
+6. Considere um programa com as seguintes variáveis e respetivas inicializações:
 
     `unsigned char c = 3.14;` 
     `unsigned short int i = 3.14; `
@@ -50,50 +57,15 @@
 
     - Qual o valor das variáveis quando se soma o valor 2 a cada uma delas?
 
-8. Faça um programa que, a partir da leitura  das medidas dos lados de um retângulo (comprimento e largura), lidos do teclado, calcule e imprima a área e o perímetro do retângulo.
 
-9. Faça um programa que leia pelo teclado um valor, em euros, converta e imprima o mesmo num valor     em dólares. Considere que €1 seja equivalente a US$ 1,23.
-
-10. A condição física de uma pessoa pode ser medida com base no cálculo do Índice de Massa Corporal     (IMC). O mesmo é calculado dividindo-se o peso desta pessoa em kg pelo quadrado da sua altura em m. Escreva um programa que leia o peso em kilograma e a altura de uma pessoa em metros, calcule e mostre o IMC. 
-
-    *Se as entradas fossem 70.0kg para o peso e 1.80m para altura então a saída esperada seria aproximadamente 21.60.*
-
-11. Escreva um programa que lê um certo número de segundos e dá o correspondente aos Dias, Horas, Minutos e Segundos.
+7. Escreva um programa que lê um certo número de segundos e dá o correspondente aos Dias, Horas, Minutos e Segundos.
 
      *Exemplo: 228184 segundos correspondem a 2 Dias e 15 Horas 23 Minutos e 4 Segundos.*
 
-12. A importância de €780.000,00 será dividida entre três vencedores de um concurso. Sendo que da quantia total:
-
-    - O primeiro vencedor receberá 46%
-
-    - O segundo receberá 32%
-
-    - O terceiro receberá o restante
-
-    Calcule e imprima a quantia ganha por cada um dos vencedores.
-
-
-13. Faça um programa que leia um número inteiro e o imprima.
-
    
 
-14. Faça um programa que leia um número real e o imprima.
 
-   
-
-15. Peça ao utilizador para digitar três valores inteiros e imprima a soma deles.
-
-   
-
-16. Leia um número real e imprima o resultado do quadrado desse número.
-
-   
-
-17. Crie um programa capaz de ler um caractere e imprimir o seu valor em decimal e hexadecimal.
-
-   
-
-18. Preencha a seguinte tabela com o resultado esperado (0 ou 1) depois de aplicar o “operador lógico” aos dois valores indicados.
+8. Preencha a seguinte tabela com o resultado esperado (0 ou 1) depois de aplicar o “operador lógico” aos dois valores indicados.
 
 | Valor 1 | Operador | Valor 2 | Resultado |
 | ------- | -------- | ------- | --------- |
@@ -106,7 +78,7 @@
 
 
 
-19. Indique qual o resultado das seguintes expressões. Assuma que todas as variáveis são inteiras:
+9. Indique qual o resultado das seguintes expressões. Assuma que todas as variáveis são inteiras:
 
 - X = 5 && 6; 
 - X = 5 && 0; 
@@ -122,7 +94,7 @@
 
    
 
-20. Implemente uma função que recebe o número de quilómetros que percorreu e o número de litros de combustível que o automóvel consumiu e retorne o número de litros que este consome em média em 100 quilómetros. Use constantes para representar os vários fatores de conversão.
+10. Implemente uma função que recebe o número de quilómetros que percorreu e o número de litros de combustível que o automóvel consumiu e retorne o número de litros que este consome em média em 100 quilómetros. Use constantes para representar os vários fatores de conversão.
 
    *Exemplo de uma sessão de uso do programa (à frente do símbolo ‘>’ aparece o input do utilizador):*
 
@@ -137,7 +109,7 @@
    
    
 
-21. Implemente uma função que recebe um horário, através da Hora, dos Minutos e dos Segundos, e com estes dados calcule e retorne o tempo total em segundos.
+11. Implemente uma função que recebe um horário, através da Hora, dos Minutos e dos Segundos, e com estes dados calcule e retorne o tempo total em segundos.
 
    *Exemplo de uma sessão de uso do programa:*
 
@@ -153,7 +125,7 @@
 
    
 
-22. Implemente um programa que peça ao utilizador para introduzir dois números inteiros (a e b) e, de seguida, apresente no ecrã o resultado das seguintes operações aritméticas:
+12. Implemente um programa que peça ao utilizador para introduzir dois números inteiros (a e b) e, de seguida, apresente no ecrã o resultado das seguintes operações aritméticas:
 
    - a+b
 
@@ -176,53 +148,16 @@
 
   
 
-23. Considere o seguinte programa em C:
-
-    ```C
-    # include <stdio.h>
-    int main (void)
-    {
-    	char alpha = (char) 0xF0;
-    	unsigned int clr = 0xBF3F3FF0 ;
-    	unsigned char beta;
-    	unsigned char gr = (clr >> 16) & (0x000000FF);
-    	beta = alpha >> 4;
-    	return 0;
-    }
-    ```
-
-    - Calcule, manualmente e sem compilar o código, o valor das variáveis `alpha`, `beta`, `clr` e `gr`.
-    - A variável beta é um número negativo ou positivo?
-    - Compile o código e verifique se o resultado foi o esperado. Caso não seja, identifique o erro e volte a fazer a primeira alínea.
+13. Crie um programa capaz de ler um número inteiro em base decimal, octal ou hexadecimal e o converta para as três bases.
+   ```bash
+   Qual a base do numero que quer inserir? ('d' - decimal, 'o' - octal, 'h' - hexadecimal)
+   > h
+   Insira o número:
+   > A
+   Conversao para Decimal: 10
+   Conversao para Octal: 12
+   Conversao para Hexadecimal: A
+   ```
 
 
-
-24.
-Crie um programa que pede ao utilizador para introduzir 3 números. O primeiro número deverá ser introduzido em base decimal, o segundo em base hexadecimal e o terceiro em base octal. Os números introduzidos deverão ser gravados em variáveis que ocupem 2 bytes cada uma. Em seguida o programa deverá apresentar uma tabela com os números introduzidos, nas três bases (decimal, hexadecimal e octal) e também os números multiplicados por -1 também nas tês bases.
-O programa deverá começar por apresentar a mensagem:
-`Wellcome to number informer v1`
-e em seguida deverá pedir o primeiro número ao utilizado:
-`Please insert Number 1 in Decimal:`
-depois o segundo:
-`Please insert Number 2 in Hexadecimal:`
-e por fim o terceiro
-`Please insert Number 3 in Octal:`
-Em seguida deverá apresentar a tabela de acordo com o exemplo apresentado em baixo. Os números em decimal e octal deverão ocupar 6 dígitos. Os números em hexadecimal deverão ocupar 4 dígitos.
-
-```
-Wellcome to number informer v1
-Please insert Number 1 in Decimal:
-1
-Please insert Number 2 in Hexadecimal:
-A
-Please insert Number 3 in Octal:
-73
-+-----+--------+------+--------+--------+------+--------+
-| Nr. | Dec    | Hex  | Oct    | -Dec   | -Hex | -Oct   |
-+-----+--------+------+--------+--------+------+--------+
-| 1   | 000001 | 0001 | 000001 | -00001 | ffff | 177777 |
-| 2   | 000010 | 000A | 000012 | -00010 | fff6 | 177766 |
-| 3   | 000059 | 003B | 000073 | -00059 | ffc5 | 177705 |
-+-----+--------+------+--------+--------+------+--------+
-```
 
